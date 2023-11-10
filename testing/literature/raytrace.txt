@@ -1,0 +1,49 @@
+Define a ray as:
+	Rorigin == Ro == [Xo Yo Zo]
+	Rctirection == Rct == [Xct Yct Zct]
+	where Xa + Ya + Za = 1 (i.e. normalized)
+	which defines a ray as :
+
+set of points on line R (t ) = Ro + Rct * t, where t > 0 . 
+
+Points on the line where t < 0 are behind the ray's origin. Why t = 0 i s not
+included as a point on the ray is explained in the ' Precision Problems' section.
+Note that the ray direction does not have to be normalized for these
+calculations . However, such normalization is recommended, otherwise t will
+represent the distance in terms of the length of the direction vector.
+Normalizing the direction vector once for the ray before intersection testing ensures that t will equal the distance from the ray's origin in terms of world
+coordinates.
+Equation (A 1 ) is the parametric or explicit form of the ray equation . This
+means that all the points on the ray can be generated directly by varying the
+value of t.
+
+The sphere is defined by:
+	Sphere 's center == Sc == [Xc Yc Zc]
+	Sphere 's radius == Sr
+	Sphere's surface is the set of points [Xs Ys Zsl
+
+where (Xs - Xc ) 2 + ( Ys - Yc ) 2 + (Zs - Zc ) 2 = Sr^2.
+
+(A2)
+The sphere's surface is expressed as an implicit equation . In this form points
+on the surface cannot be directly generated . Instead, each point [Xs Ys Zs]
+can be tested by the implicit equation ; if it fulfdls the equation's conditions,
+the point is on the surface.
+To solve the intersection problem, the ray equation is substituted into the
+sphere equation and the result is solved for t. This is done by expressing the
+ray equation (A1 ) as a set of equations for the set of points [X Y Z] in terms of
+t:
+X = Xo + Xd • t
+Y = Yo + Yd • t
+Z = Zo + Zd * t.
+(A3)
+Substituting this set of equations into the sphere equation's variables
+[Xs Ys Zs] , we obtain :
+( 
+
+
+r(intersect) == r(i) = [xi, yi, Zi] = [Xo + Xct * t, Yo + Yct * t, Zo + Zct * t] . 
+where:
+	xi = Xo + Xct * t
+	yi = Yo + Yct * t
+	zi = Zo + Zct * t

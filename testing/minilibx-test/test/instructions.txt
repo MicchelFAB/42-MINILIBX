@@ -1,0 +1,2 @@
+make -f Makefile.gen all
+./mlx-test

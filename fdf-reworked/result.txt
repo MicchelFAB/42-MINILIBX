@@ -1,0 +1,2961 @@
+w/s : rotate by x axis
+a/d : rotate by y axis
+q/e : rotate by z axis
+
+c   : trippy colors
+ijkl: translate (move around)
++/- : zoom / scale
+with z x or y, scale that axis
+Esc to quit.
+[0;33m(>)[0;33m parse[0m
+[0;33m(>)[0;33m safe_open[0m
+[0;33m(X)[0;32m safe_open[0m
+[0;33m(>)[0;33m pre_parse[0m
+[0;33m(X)[0;32m pre_parse[0m
+[0;33m(>)[0;33m safe_open[0m
+[0;33m(X)[0;32m safe_open[0m
+[0;33m(>)[0;33m parse_points[0m
+[0;33m(X)[0;32m parse_points[0m
+[0;33m(X)[0;32m parse[0m
+[0;33m(>)[0;33m fdf[0m
+[0;33m(>)[0;33m show_controls[0m
+[0;33m(X)[0;32m show_controls[0m
+[0;33m(>)[0;33m full_redraw[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+[0;33m(X)[0;32m full_redraw[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 97
+keycode = 97
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 1
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 97
+keycode = 97
+keycode = 97
+keycode = 97
+keycode = 97
+keycode = 97
+keycode = 97
+keycode = 97
+keycode = 97
+keycode = 97
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 97
+keycode = 97
+keycode = 97
+keycode = 97
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 97
+keycode = 97
+keycode = 97
+keycode = 97
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 97
+keycode = 97
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 1
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 97
+keycode = 97
+keycode = 97
+keycode = 97
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 1
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 1
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 97
+keycode = 97
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_wireframe[0m
+[0;33m(X)[0;32m draw_wireframe[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 109
+keycode = 109
+keycode = 109
+keycode = 109
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 115
+keycode = 115
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 1
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 115
+keycode = 115
+keycode = 115
+keycode = 115
+keycode = 115
+keycode = 115
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 115
+keycode = 115
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 1
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 1
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 1
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 1
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 1
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 1
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 115
+keycode = 115
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 100
+keycode = 100
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 1
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 1
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 1
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 1
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 1
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 1
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 1
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 1
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 1
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 1
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 1
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 100
+keycode = 100
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 115
+keycode = 115
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 1
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 115
+keycode = 115
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 119
+keycode = 119
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 1
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 1
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 1
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 1
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 119
+keycode = 119
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 120
+keycode = 120
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 1
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 1
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 120
+keycode = 120
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 122
+keycode = 122
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 1
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 1
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 122
+keycode = 122
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 65362
+keycode = 65362
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 65362
+keycode = 65362
+keycode = 65362
+keycode = 65362
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 65362
+keycode = 65362
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 65364
+keycode = 65364
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 65364
+keycode = 65364
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 65363
+keycode = 65363
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 65363
+keycode = 65363
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 65361
+keycode = 65361
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+keycode = 65361
+keycode = 65361
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->pressed->right = 0
+view->pressed->down = 0
+view->pressed->plus = 0
+view->pressed->minus = 0
+[0;33m(>)[0;33m color_hook[0m
+[0;33m(X)[0;32m color_hook[0m
+[0;33m(>)[0;33m translate_hook[0m
+[0;33m(X)[0;32m translate_hook[0m
+[0;33m(>)[0;33m redraw[0m
+[0;33m(>)[0;33m draw_projected[0m
+[0;33m(X)[0;32m draw_projected[0m
+[0;33m(X)[0;32m redraw[0m
+****************************************
+view->pressed->c = 0
+view->pressed->semi = 0
+view->pressed->i = 0
+view->pressed->j = 0
+view->pressed->k = 0
+view->pressed->l = 0
+view->pressed->m = 0
+view->pressed->n = 0
+view->pressed->o = 0
+view->pressed->p = 0
+view->pressed->q = 0
+view->pressed->w = 0
+view->pressed->e = 0
+view->pressed->a = 0
+view->pressed->s = 0
+view->pressed->d = 0
+view->pressed->x = 0
+view->pressed->y = 0
+view->pressed->z = 0
+view->pressed->left = 0
+view->pressed->up = 0
+view->
